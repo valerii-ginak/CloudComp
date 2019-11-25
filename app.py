@@ -11,7 +11,7 @@ import plotly.graph_objs as go
 import pandas as pd
 
 app = dash.Dash(__name__)
-  server = app.server
+server = app.server
 
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
 
